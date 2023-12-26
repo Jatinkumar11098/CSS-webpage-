@@ -226,6 +226,34 @@ nav {
     object-fit: cover;
 }
 
+.info_page {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info_page p {
+    color: white;
+    max-width: 30%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.info_page .button_touch {
+
+    text-decoration: none;
+    color: #ede4df;
+    border: 5px solid #D87001;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 0 50px 50px 0;
+    background-color: #D87001;
+}
+
 @media (max-width:760px) {
     .main_nav {
         flex-direction: column;
