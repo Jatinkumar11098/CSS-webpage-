@@ -140,13 +140,50 @@ body {
     height: 100dvh;
     width: 100%;
     background-color: #0A0A0A;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.logo img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.logo span {
+    padding-left: 10px;
+    color: #EDE4DF;
+    text-align: center;
 }
 
 .main_nav {
-    display: flex;
+    width: 100%;
     max-width: 80%;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px 0px;
+
+}
+
+.main_links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    max-width: 50%;
 }
 
 .main_links a {
